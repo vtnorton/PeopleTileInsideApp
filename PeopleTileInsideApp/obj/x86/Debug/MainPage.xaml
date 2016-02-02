@@ -1,0 +1,25 @@
+﻿<Page
+    x:Class="PeopleTileInsideApp.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PeopleTileInsideApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <Grid Background="Black" Padding="15">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"></RowDefinition>
+            <RowDefinition Height="80"></RowDefinition>
+            <RowDefinition Height="70"></RowDefinition>
+            <RowDefinition Height="70"></RowDefinition>
+            <RowDefinition Height="70"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <TextBlock Grid.Row="0" Text="People Tile Inside App" FontSize="32" Margin="0,-12,0,0" Foreground="White" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+        <TextBlock x:ConnectionId='1' x:Name="txtFeelFree" Grid.Row="1" Text="There is three differents sizes of tiles: Wide; Large and Small. Feel free to pick what you want! :-)" TextWrapping="Wrap" Foreground="White" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+        <HyperlinkButton x:ConnectionId='2' x:Name="btnWideTile"                           Grid.Row="2" FontSize="20" Content="Wide Tile" Foreground="White" HorizontalAlignment="Stretch" VerticalAlignment="Top"/>
+        <HyperlinkButton x:ConnectionId='3' x:Name="btnLargeTile"                            Grid.Row="3" FontSize="20" Content="Large Tile" Foreground="White" HorizontalAlignment="Stretch" VerticalAlignment="Top"/>
+        <HyperlinkButton x:ConnectionId='4' x:Name="btnSmallTile"                            Grid.Row="4" FontSize="20" Content="Small Tile" Foreground="White" HorizontalAlignment="Stretch" VerticalAlignment="Top"/>
+    </Grid>
+</Page>
+

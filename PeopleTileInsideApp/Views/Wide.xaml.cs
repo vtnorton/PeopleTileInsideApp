@@ -41,13 +41,13 @@ namespace PeopleTileInsideApp.Views
             Ellipse10Backgrund.ImageSource = new BitmapImage(new Uri(this.BaseUri, @"../Assets/People/Image02.jpg"));
             Ellipse31Backgrund.ImageSource = new BitmapImage(new Uri(this.BaseUri, @"../Assets/People/Image03.jpg"));
             Ellipse01Backgrund.ImageSource = new BitmapImage(new Uri(this.BaseUri, @"../Assets/People/Image04.jpg"));
-            Ellipse21Backgrund.ImageSource = new BitmapImage(new Uri(this.BaseUri, @"../Assets/People/Image05.jpg"));
-            Ellipse31Backgrund.ImageSource = new BitmapImage(new Uri(this.BaseUri, @"../Assets/People/Image06.jpg"));
-            Ellipse41Backgrund.ImageSource = new BitmapImage(new Uri(this.BaseUri, @"../Assets/People/Image07.jpg"));
-            Ellipse02Backgrund.ImageSource = new BitmapImage(new Uri(this.BaseUri, @"../Assets/People/Image15.jpg"));
-            Ellipse12Backgrund.ImageSource = new BitmapImage(new Uri(this.BaseUri, @"../Assets/People/Image09.jpg"));
-            Ellipse22Backgrund.ImageSource = new BitmapImage(new Uri(this.BaseUri, @"../Assets/People/Image10.jpg"));
-            Ellipse32Backgrund.ImageSource = new BitmapImage(new Uri(this.BaseUri, @"../Assets/People/Image11.jpg"));
+            Ellipse21Backgrund.ImageSource = new BitmapImage(new Uri(this.BaseUri, @"../Assets/People/Image01.jpg"));
+            Ellipse31Backgrund.ImageSource = new BitmapImage(new Uri(this.BaseUri, @"../Assets/People/Image02.jpg"));
+            Ellipse41Backgrund.ImageSource = new BitmapImage(new Uri(this.BaseUri, @"../Assets/People/Image03.jpg"));
+            Ellipse02Backgrund.ImageSource = new BitmapImage(new Uri(this.BaseUri, @"../Assets/People/Image04.jpg"));
+            Ellipse12Backgrund.ImageSource = new BitmapImage(new Uri(this.BaseUri, @"../Assets/People/Image01.jpg"));
+            Ellipse22Backgrund.ImageSource = new BitmapImage(new Uri(this.BaseUri, @"../Assets/People/Image02.jpg"));
+            Ellipse32Backgrund.ImageSource = new BitmapImage(new Uri(this.BaseUri, @"../Assets/People/Image03.jpg"));
         }
 
         private void HyperlinkButton_Click(object sender, RoutedEventArgs e)

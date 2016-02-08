@@ -20,10 +20,7 @@
         <TextBlock x:Name="txtFeelFree" Padding="15" Grid.Row="1" Text="There is three differents sizes of tiles: Wide; Large and Small. Feel free to pick what you want! :-)" TextWrapping="Wrap" Foreground="White" VerticalAlignment="Top" HorizontalAlignment="Left"/>
         <Grid Grid.Row="2">
             <!-- The code for the Wide tile start here -->
-            <!--<HyperlinkButton Click="HyperlinkButton_Click" Width="310" Height="150" VerticalAlignment="Top" HorizontalAlignment="Center" d:LayoutOverrides="Width">-->
-
-            <!-- Background has to be on Hex, for making the transparent fill on ellipse-->
-            <!--<Grid Width="525" Height="375" Background="Blue" VerticalAlignment="Top" HorizontalAlignment="Center">-->
+            <HyperlinkButton Click="HyperlinkButton_Click" Width="310" Height="150" VerticalAlignment="Top" HorizontalAlignment="Center" d:LayoutOverrides="Width">
             <Grid Width="310" Height="150" Background="#2572EB" VerticalAlignment="Top" HorizontalAlignment="Center">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"></ColumnDefinition>
@@ -32,24 +29,8 @@
                     <RowDefinition Height="*"></RowDefinition>
                 </Grid.RowDefinitions>
 
-                <Grid Grid.Column="0" Grid.Row="0">
-                    <!--<Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="75"></ColumnDefinition>
-                        <ColumnDefinition Width="75"></ColumnDefinition>
-                        <ColumnDefinition Width="75"></ColumnDefinition>
-                        <ColumnDefinition Width="75"></ColumnDefinition>
-                        <ColumnDefinition Width="75"></ColumnDefinition>
-                        <ColumnDefinition Width="75"></ColumnDefinition>
-                        <ColumnDefinition Width="75"></ColumnDefinition>
-                    </Grid.ColumnDefinitions>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="75"></RowDefinition>
-                        <RowDefinition Height="75"></RowDefinition>
-                        <RowDefinition Height="75"></RowDefinition>
-                        <RowDefinition Height="75"></RowDefinition>
-                        <RowDefinition Height="75"></RowDefinition>
-                    </Grid.RowDefinitions>-->
-                    <Grid.ColumnDefinitions>
+                    <Grid Grid.Column="0" Grid.Row="0">
+                        <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="42.5"></ColumnDefinition>
                         <ColumnDefinition Width="75"></ColumnDefinition>
                         <ColumnDefinition Width="75"></ColumnDefinition>
@@ -127,7 +108,7 @@
                         </Ellipse.RenderTransform>
                         <Ellipse.Fill>
                             <!-- For editing only -->
-                            <ImageBrush x:Name="Ellipse21Backgrund" ImageSource="../Assets/People/Image05.jpg"></ImageBrush>
+                            <ImageBrush x:Name="Ellipse21Backgrund" ImageSource="../Assets/People/Image01.jpg"></ImageBrush>
                             <!-- oficial  -->
                             <!--<ImageBrush x:Name="Ellipse21Backgrund"></ImageBrush>-->
                         </Ellipse.Fill>
@@ -135,7 +116,7 @@
                     <Ellipse x:Name="Ellipse31" Grid.Column="3" Grid.Row="1" Width="75" Height="75">
                         <Ellipse.Fill>
                             <!-- For editing only -->
-                            <ImageBrush x:Name="Ellipse31Backgrund" ImageSource="../Assets/People/Image06.jpg"></ImageBrush>
+                            <ImageBrush x:Name="Ellipse31Backgrund" ImageSource="../Assets/People/Image02.jpg"></ImageBrush>
                             <!-- oficial  -->
                             <!--<ImageBrush x:Name="Ellipse01Backgrund"></ImageBrush>-->
                         </Ellipse.Fill>
@@ -146,7 +127,7 @@
                         </Ellipse.RenderTransform>
                         <Ellipse.Fill>
                             <!-- For editing only -->
-                            <ImageBrush x:Name="Ellipse41Backgrund" ImageSource="../Assets/People/Image07.jpg"></ImageBrush>
+                            <ImageBrush x:Name="Ellipse41Backgrund" ImageSource="../Assets/People/Image03.jpg"></ImageBrush>
                             <!-- oficial  -->
                             <!--<ImageBrush x:Name="Ellipse41Backgrund"></ImageBrush>-->
                         </Ellipse.Fill>
@@ -157,7 +138,7 @@
                         </Ellipse.RenderTransform>
                         <Ellipse.Fill>
                             <!-- For editing only -->
-                            <ImageBrush x:Name="Ellipse02Backgrund" ImageSource="../Assets/People/Image15.jpg"></ImageBrush>
+                            <ImageBrush x:Name="Ellipse02Backgrund" ImageSource="../Assets/People/Image04.jpg"></ImageBrush>
                             <!-- oficial  -->
                             <!--<ImageBrush x:Name="Ellipse02Backgrund"></ImageBrush>-->
                         </Ellipse.Fill>
@@ -168,7 +149,7 @@
                         </Ellipse.RenderTransform>
                         <Ellipse.Fill>
                             <!-- For editing only -->
-                            <ImageBrush x:Name="Ellipse12Backgrund" ImageSource="../Assets/People/Image09.jpg"></ImageBrush>
+                            <ImageBrush x:Name="Ellipse12Backgrund" ImageSource="../Assets/People/Image01.jpg"></ImageBrush>
                             <!-- oficial  -->
                             <!--<ImageBrush x:Name="Ellipse12Backgrund"></ImageBrush>-->
                         </Ellipse.Fill>
@@ -179,7 +160,7 @@
                         </Ellipse.RenderTransform>
                         <Ellipse.Fill>
                             <!-- For editing only -->
-                            <ImageBrush x:Name="Ellipse22Backgrund" ImageSource="../Assets/People/Image10.jpg"></ImageBrush>
+                            <ImageBrush x:Name="Ellipse22Backgrund" ImageSource="../Assets/People/Image02.jpg"></ImageBrush>
                             <!-- oficial  -->
                             <!--<ImageBrush x:Name="Ellipse22Backgrund"></ImageBrush>-->
                         </Ellipse.Fill>
@@ -190,7 +171,7 @@
                         </Ellipse.RenderTransform>
                         <Ellipse.Fill>
                             <!-- For editing only -->
-                            <ImageBrush x:Name="Ellipse32Backgrund" ImageSource="../Assets/People/Image11.jpg"></ImageBrush>
+                            <ImageBrush x:Name="Ellipse32Backgrund" ImageSource="../Assets/People/Image03.jpg"></ImageBrush>
                             <!-- oficial  -->
                             <!--<ImageBrush x:Name="Ellipse32Backgrund"></ImageBrush>-->
                         </Ellipse.Fill>
@@ -201,13 +182,13 @@
                         </Ellipse.RenderTransform>
                     </Ellipse>
                 </Grid>
-                <!--<Grid Grid.Column="0" Grid.Row="0" PointerMoved="grdWideTile_PointerMoved" PointerExited="grdWideTile_PointerExited" x:Name="grdWideTile" Width="310" Height="150">
+                <Grid Grid.Column="0" Grid.Row="0" PointerMoved="grdWideTile_PointerMoved" PointerExited="grdWideTile_PointerExited" x:Name="grdWideTile" Width="310" Height="150">
                     <TextBlock VerticalAlignment="Stretch" HorizontalAlignment="Stretch"></TextBlock>
                 </Grid>
-                <TextBlock Grid.Column="0" Grid.Row="0" Text="People" Foreground="White" VerticalAlignment="Bottom" Margin="5,5,5,15" HorizontalAlignment="Stretch"></TextBlock>-->
+                <TextBlock Grid.Column="0" Grid.Row="0" Text="People" Foreground="White" VerticalAlignment="Bottom" Margin="5,5,5,15" HorizontalAlignment="Stretch"></TextBlock>
             </Grid>
 
-            <!--</HyperlinkButton>-->
+            </HyperlinkButton>
             <!-- The code for the Wide tile end here -->
         </Grid>
     </Grid>
